@@ -4,15 +4,6 @@ import os
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-# rseponse = requests.get("https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/")
-# web_html = rseponse.text
-# soup = BeautifulSoup(web_html, "html.parser")
-# all_movies = soup.findAll(name="h3", class_="title")
-# movie_titles = [movie.getText() for movie in all_movies]
-# movies = movie_titles[::-1]
-# with codecs.open("movies.txt", "w",encoding='utf-8', errors='strict') as f:
-#     for movie in movies:
-#         f.write(f"{movie}\n")
 
 
 CLIENT_ID = os.environ.get("CLIENTID")
